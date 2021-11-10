@@ -1,83 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Denis Novik</title>
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
     <!--navigation-->
     <header>
-         <nav class="nav">
-            <a href="#home" class="link">Home</a>
-            <a href="#about"class="link">About me</a>
-            <a href="#skills"class="link">Skills</a>
-            <a href="#portfolio"class="link">Portfolio</a>
-            <a href="#contacts"class="link">Contacts</a>
-            <hr>
-              <aside>
-                <a href="">EN</a>
-                <a href="">RU</a>
-             </aside>
-         </nav>
-                    
+      <nav class="nav container">
+        <ul class="nav-list">
+          <li><a href="#home" class="link">Home</a></li>
+          <li><a href="#about" class="link">About me</a></li>
+          <li><a href="#skills" class="link">Skills</a></li>
+          <li><a href="#portfolio" class="link">Portfolio</a></li>
+          <li><a href="#contacts" class="link">Contacts</a></li>
+        </ul>
+        </nav> 
     </header>
     <main>
-        <!--denis novil sect1-->
-        <section class="home">
-           <h1>Denis<br>Novik <a name="Home"></a></h1>
-             <p>UX | UI designer <br> 24 years old, Minsk </p>
-             <img src="./img/dn1.jpg" alt="Denis Novik" width="943">
+      <!--denis novil sect1-->
+      <section class="home">
+        <div class="container">
+          <div class="hero">
+            <h1>Denis<br />Novik <a name="Home"></a></h1>
+        <p>
+          UX | UI designer <br />
+          24 years old, Minsk
+        </p>
+        <aside><ul>
+          <li><a href="">EN</a></li>
+          <li><a href="">RU</a></li>
+        </ul>
+        </aside>
+          </div>
+        <img src="./img/dn1.jpg" alt="Denis Novik" width="943" />
+        </div>
         </section>
-        <!--about-->
-        <section class="about">
-            <h2>About me <a name="about"> </a></h2>
-            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it.</p>
-            <p>I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy.</p>
-            <p>Ready to implement excellent projects <br> with wonderful people.</p>
-        </section>
-        <!--skills-->
-        <section class="skills">
-            <h2>Skills <a name="skills"></a></h2>
-            <p>I work in such programs as</p>
-            <ul class="list">
-                <li> <img src="./img/skill1.jpg" alt="adobe photoshop" width="166"> </li>
-                <li> <img src="./img/skill2.jpg" alt="adobe illustrator" width="166"> </li>
-                <li> <img src="./img/skill3.jpg" alt="adobe after effects" width="166"> </li>
-                <li> <img src="./img/skill4.jpg" alt="figma" width="166"> </li>
-            </ul>
-        </section>
-        <!--portfolio -->
-        <section class="portfolio">
-            <h2>Portfolio <a name="portfolio"></a></h2>
-            <ul>
-                <li class="list">
-                    <img src="./img/fstore.jpg" alt="fashion store page" width="936">
-                    <a href="">Online fashion store - Homepage</a>
-                </li>
-                <li class="list">
-                    <img src="./img/reebok_web.jpg" alt="reebok landing page" width="936">
-                    <a href="">Reebok Store - Concept</a>
-                </li>
-                <li class="list">
-                    <img src="./img/braun.jpg" alt="braun landing page" width="936">
-                    <a href="">Braun Landing Page - Concept</a>
-                </li>
-            </ul>
-        </section>
-        <!--contacts-->
-        <section class="contacts">
-            <h2>Contacts <a name="contacts"></a></h2>
-            <p>Want to know more or just chat? <br> You are welcome!</p>
-            <button>Send message</button>
-        </section>
-        <!--footer-->
-        <footer>
-            <img src="./img/icons.jpg" alt="social network icons">
-            <p>Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
-        </footer>
+      <!--about-->
+      <section class="about">
+        <div class="container">
+          <h2>About me <a name="about"> </a></h2>
+        <ul class="about-list">
+          <li><p>
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+          </p></li>
+          <li><p>
+            I'm studying at courses "Web and mobile design <br />
+            interfaces" in IT-Academy.
+          </p></li>
+          <li><p>
+            Ready to implement excellent projects <br />
+            with wonderful people.
+          </p></li>
+        </ul>
+      </div>
+      </section>
+      <!--skills-->
+      <section class="skills">
+        <div class="container">
+          <h2>Skills <a name="skills"></a></h2>
+        <p>I work in such programs as</p>
+        <ul class="list">
+          <li><img src="./img/skill1.jpg" class="skills-img" alt="adobe photoshop" width="166" /></li>
+          <li><img src="./img/skill2.jpg" class="skills-img" alt="adobe illustrator" width="166" /></li>
+          <li><img src="./img/skill3.jpg" class="skills-img" alt="adobe after effects" width="166" /></li>
+          <li><img src="./img/skill4.jpg" class="skills-img" alt="figma" width="166" /></li>
+        </ul>
+        </div>
+      </section>
+      <!--portfolio -->
+      <section class="portfolio">
+        <div class="container">
+          <h2>Portfolio <a name="portfolio"></a></h2>
+        <ul>
+          <li class="list">
+            <a href=""><img src="./img/fstore.jpg" alt="fashion store page" width="936" /> Online fashion store - Homepage</a>
+          </li>
+          <li class="list">
+            <a href=""><img src="./img/reebok_web.jpg" alt="reebok landing page" width="936" />Reebok Store - Concept</a>
+          </li>
+          <li class="list">
+            <a href=""><img src="./img/braun.jpg" alt="braun landing page" width="936" />Braun Landing Page - Concept</a>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <!--footer-->
+      <footer class="footer">
+        <div class="container">
+          <h2>Contacts <a name="contacts"></a></h2>
+        <p>
+          Want to know more or just chat? <br />
+          You are welcome!
+        </p>
+        <button>Send message</button>
+          <img src="./img/icons.jpg" alt="social network icons" />
+        <p>
+          Like me on <br />
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
+        </div>
+      </footer>
     </main>
-</body>
+  </body>
 </html>
